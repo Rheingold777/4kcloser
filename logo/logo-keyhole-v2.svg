@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Cleaner keyhole - more balanced proportions -->
+  
+  <!-- Keyhole shape - filled gold, 4K knocked out -->
+  <circle cx="100" cy="75" r="50" fill="#fbbf24"/>
+  <rect x="85" y="120" width="30" height="60" fill="#fbbf24"/>
+  
+  <!-- 4K text (dark, knocked out effect) -->
+  <text x="100" y="88" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#1a1a2e">4K</text>
+</svg>

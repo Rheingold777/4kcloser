@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Bold typographic - just strong 4K with gold underline -->
+  
+  <!-- 4K large and bold -->
+  <text x="100" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="900" fill="#ffffff">4K</text>
+  
+  <!-- Gold accent bar underneath -->
+  <rect x="40" y="135" width="120" height="8" rx="4" fill="#fbbf24"/>
+</svg>
