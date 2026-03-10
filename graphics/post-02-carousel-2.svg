@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bgGrad)"/>
+  
+  <!-- Header -->
+  <text x="540" y="150" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="32" fill="#94a3b8">Lenders expect us to fix...</text>
+  
+  <!-- Issue 1 -->
+  <rect x="100" y="250" width="880" height="180" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <text x="160" y="310" font-family="Inter, -apple-system, sans-serif" font-size="28" fill="#fbbf24" font-weight="700">01</text>
+  <text x="230" y="310" font-family="Inter, -apple-system, sans-serif" font-size="36" fill="#ffffff" font-weight="600">Wrong name spelling</text>
+  <text x="230" y="370" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">"Can you just cross it out and initial?"</text>
+  <text x="230" y="405" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">No. No we cannot.</text>
+  
+  <!-- Issue 2 -->
+  <rect x="100" y="460" width="880" height="180" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <text x="160" y="520" font-family="Inter, -apple-system, sans-serif" font-size="28" fill="#fbbf24" font-weight="700">02</text>
+  <text x="230" y="520" font-family="Inter, -apple-system, sans-serif" font-size="36" fill="#ffffff" font-weight="600">Missing pages</text>
+  <text x="230" y="580" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">"The notary should have caught that."</text>
+  <text x="230" y="615" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">We're not your QC department.</text>
+  
+  <!-- Issue 3 -->
+  <rect x="100" y="670" width="880" height="180" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <text x="160" y="730" font-family="Inter, -apple-system, sans-serif" font-size="28" fill="#fbbf24" font-weight="700">03</text>
+  <text x="230" y="730" font-family="Inter, -apple-system, sans-serif" font-size="36" fill="#ffffff" font-weight="600">Outdated forms</text>
+  <text x="230" y="790" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">"Why didn't they use the new version?"</text>
+  <text x="230" y="825" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#94a3b8">Because YOU sent the old one.</text>
+  
+  <!-- Logo -->
+  <text x="940" y="1000" text-anchor="middle" font-size="32">🎯</text>
+  <text x="1000" y="1000" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#94a3b8">4kCloser</text>
+  
+  <!-- Page indicator -->
+  <circle cx="500" cy="1020" r="8" fill="#64748b"/>
+  <circle cx="530" cy="1020" r="8" fill="#fbbf24"/>
+  <circle cx="560" cy="1020" r="8" fill="#64748b"/>
+</svg>

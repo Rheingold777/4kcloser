@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bgGrad)"/>
+  
+  <!-- Fire badge -->
+  <text x="540" y="200" text-anchor="middle" font-size="80">🔥</text>
+  <text x="540" y="270" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="32" fill="#fbbf24" font-weight="700">HOT TAKE</text>
+  
+  <!-- Main text - EDIT THESE -->
+  <text x="540" y="440" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="44" fill="#ffffff" font-weight="600">Most signing companies</text>
+  <text x="540" y="510" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="44" fill="#ffffff" font-weight="600">are middlemen taking 40%</text>
+  <text x="540" y="580" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="44" fill="#ffffff" font-weight="600">for sending an email.</text>
+  
+  <!-- Subtext -->
+  <text x="540" y="700" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="36" fill="#fbbf24">The future is direct:</text>
+  <text x="540" y="760" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="36" fill="#fbbf24">Lender → Notary</text>
+  
+  <!-- CTA -->
+  <text x="540" y="880" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="28" fill="#94a3b8">Change my mind. 👇</text>
+  
+  <!-- Logo -->
+  <text x="500" y="1000" text-anchor="middle" font-size="32">🎯</text>
+  <text x="580" y="1000" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#94a3b8">4kCloser</text>
+</svg>

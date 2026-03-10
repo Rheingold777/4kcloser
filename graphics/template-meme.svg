@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bgGrad)"/>
+  
+  <!-- POV label -->
+  <rect x="340" y="150" width="400" height="60" rx="30" fill="rgba(251,191,36,0.2)"/>
+  <text x="540" y="192" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="28" fill="#fbbf24" font-weight="700">POV</text>
+  
+  <!-- Main text - EDIT THIS -->
+  <text x="540" y="380" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="40" fill="#ffffff" font-weight="600">The lender says</text>
+  <text x="540" y="450" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="48" fill="#fbbf24" font-weight="700">"minor changes"</text>
+  <text x="540" y="520" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="40" fill="#ffffff" font-weight="600">at 4:55 PM on a Friday</text>
+  
+  <!-- Reaction area -->
+  <rect x="140" y="620" width="800" height="200" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <text x="540" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#94a3b8" font-style="italic">*narrator voice*</text>
+  <text x="540" y="770" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="40" fill="#ffffff" font-weight="600">They were not minor.</text>
+  
+  <!-- Emoji reaction -->
+  <text x="540" y="920" text-anchor="middle" font-size="64">😐</text>
+  
+  <!-- Logo -->
+  <text x="500" y="1020" text-anchor="middle" font-size="32">🎯</text>
+  <text x="580" y="1020" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#94a3b8">4kCloser</text>
+</svg>
