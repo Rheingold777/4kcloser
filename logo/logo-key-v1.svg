@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 4K with K as a key - minimal -->
+  
+  <!-- The "4" -->
+  <text x="55" y="125" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">4</text>
+  
+  <!-- Key shape forming the "K" -->
+  <!-- Key head (circle) -->
+  <circle cx="130" cy="75" r="20" fill="none" stroke="#fbbf24" stroke-width="5"/>
+  <!-- Key shaft (vertical line down) -->
+  <line x1="130" y1="95" x2="130" y2="160" stroke="#fbbf24" stroke-width="5"/>
+  <!-- Key teeth -->
+  <line x1="130" y1="130" x2="145" y2="130" stroke="#fbbf24" stroke-width="5"/>
+  <line x1="130" y1="148" x2="150" y2="148" stroke="#fbbf24" stroke-width="5"/>
+</svg>

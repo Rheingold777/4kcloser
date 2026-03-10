@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Super minimal - just 4K with gold accent dot -->
+  
+  <!-- 4K text -->
+  <text x="100" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">4K</text>
+  
+  <!-- Gold accent dot (the "target") -->
+  <circle cx="158" cy="70" r="12" fill="#fbbf24"/>
+</svg>

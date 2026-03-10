@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Horizontal key with 4K in the head - cleanest key version -->
+  
+  <!-- Key head (larger circle with 4K inside) -->
+  <circle cx="70" cy="100" r="45" fill="none" stroke="#fbbf24" stroke-width="4"/>
+  <text x="70" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">4K</text>
+  
+  <!-- Key shaft -->
+  <line x1="115" y1="100" x2="175" y2="100" stroke="#fbbf24" stroke-width="4"/>
+  
+  <!-- Key teeth (minimal) -->
+  <line x1="155" y1="100" x2="155" y2="115" stroke="#fbbf24" stroke-width="4"/>
+  <line x1="170" y1="100" x2="170" y2="110" stroke="#fbbf24" stroke-width="4"/>
+</svg>

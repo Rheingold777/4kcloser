@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Minimal target with 4K -->
+  
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#fbbf24" stroke-width="4"/>
+  
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- Center dot -->
+  <circle cx="100" cy="100" r="8" fill="#fbbf24"/>
+  
+  <!-- 4K text -->
+  <text x="100" y="118" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">4K</text>
+</svg>

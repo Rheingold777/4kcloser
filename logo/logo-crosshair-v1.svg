@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Ultra minimal crosshair with 4K -->
+  
+  <!-- Crosshair lines -->
+  <line x1="100" y1="20" x2="100" y2="70" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="100" y1="130" x2="100" y2="180" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="20" y1="100" x2="70" y2="100" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="130" y1="100" x2="180" y2="100" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- 4K text centered -->
+  <text x="100" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">4K</text>
+</svg>
