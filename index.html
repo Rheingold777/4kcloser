@@ -135,6 +135,29 @@
             letter-spacing: 0.5px;
         }
     </style>
+<!-- Google Analytics 4 (G-PT1QGF83X5): fires only on the live domain, not on previews/localhost -->
+<script>
+(function () {
+  var LIVE = ['4kcloser.com','www.4kcloser.com'];
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { dataLayer.push(arguments); };
+  if (LIVE.indexOf(location.hostname) === -1) return;
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-PT1QGF83X5';
+  document.head.appendChild(s);
+  gtag('js', new Date());
+  gtag('config', 'G-PT1QGF83X5');
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (href.indexOf('tel:') === 0) gtag('event', 'call_click', { link_url: href });
+    else if (href.indexOf('sms:') === 0) gtag('event', 'text_click', { link_url: href });
+    else if (href.indexOf('mailto:') === 0) gtag('event', 'email_click', { link_url: href });
+  });
+})();
+</script>
 </head>
 <body>
     <div class="container">
